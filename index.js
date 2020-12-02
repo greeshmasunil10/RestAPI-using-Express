@@ -1,7 +1,6 @@
 const Joi = require('joi');
 const express = require('express'); // returns a func
-const app = express(); //app name is the commmon convention
-
+const app = express(); 
 app.use(express.json());
 
 // app.get();
